@@ -1,5 +1,6 @@
 def load_data():
     
+		#File location to be updated according to your local system file structure.
     with open("/Users/lobsang/Downloads/pythonTsedharProject/Book-Ratings.csv", encoding = 'latin-1') as f:
         ratingList = f.readlines()
         
